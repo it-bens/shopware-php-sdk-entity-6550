@@ -1,2 +1,763 @@
 parameters:
 	ignoreErrors:
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\AclRole\\AclRoleEntity\:\:\$privileges type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/AclRole/AclRoleEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\App\\AppEntity\:\:\$allowedHosts type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/App/AppEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\App\\AppEntity\:\:\$cookies type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/App/AppEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\App\\AppEntity\:\:\$mainModule type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/App/AppEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\App\\AppEntity\:\:\$modules type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/App/AppEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\AppCmsBlock\\AppCmsBlockEntity\:\:\$block type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/AppCmsBlock/AppCmsBlockEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\AppFlowAction\\AppFlowActionEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/AppFlowAction/AppFlowActionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\AppFlowAction\\AppFlowActionEntity\:\:\$headers type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/AppFlowAction/AppFlowActionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\AppFlowAction\\AppFlowActionEntity\:\:\$parameters type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/AppFlowAction/AppFlowActionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\AppFlowAction\\AppFlowActionEntity\:\:\$requirements type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/AppFlowAction/AppFlowActionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\AppFlowEvent\\AppFlowEventEntity\:\:\$aware type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/AppFlowEvent/AppFlowEventEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\AppScriptCondition\\AppScriptConditionEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/AppScriptCondition/AppScriptConditionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Category\\CategoryEntity\:\:\$breadcrumb type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Category/CategoryEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Category\\CategoryEntity\:\:\$slotConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Category/CategoryEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CategoryTranslation\\CategoryTranslationEntity\:\:\$breadcrumb type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CategoryTranslation/CategoryTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CategoryTranslation\\CategoryTranslationEntity\:\:\$slotConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CategoryTranslation/CategoryTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CmsBlock\\CmsBlockEntity\:\:\$visibility type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CmsBlock/CmsBlockEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CmsPage\\CmsPageEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CmsPage/CmsPageEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CmsSection\\CmsSectionEntity\:\:\$visibility type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CmsSection/CmsSectionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CmsSlot\\CmsSlotEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CmsSlot/CmsSlotEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CmsSlot\\CmsSlotEntity\:\:\$data type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CmsSlot/CmsSlotEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CmsSlot\\CmsSlotEntity\:\:\$fieldConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CmsSlot/CmsSlotEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CmsSlotTranslation\\CmsSlotTranslationEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CmsSlotTranslation/CmsSlotTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Country\\CountryEntity\:\:\$addressFormat type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Country/CountryEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Country\\CountryEntity\:\:\$companyTax type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Country/CountryEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Country\\CountryEntity\:\:\$customerTax type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Country/CountryEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CountryTranslation\\CountryTranslationEntity\:\:\$addressFormat type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CountryTranslation/CountryTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Currency\\CurrencyEntity\:\:\$itemRounding type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Currency/CurrencyEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Currency\\CurrencyEntity\:\:\$totalRounding type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Currency/CurrencyEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CurrencyCountryRounding\\CurrencyCountryRoundingEntity\:\:\$itemRounding type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CurrencyCountryRounding/CurrencyCountryRoundingEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CurrencyCountryRounding\\CurrencyCountryRoundingEntity\:\:\$totalRounding type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CurrencyCountryRounding/CurrencyCountryRoundingEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CustomEntity\\CustomEntity\:\:\$fields type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CustomEntity/CustomEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CustomEntity\\CustomEntity\:\:\$flags type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CustomEntity/CustomEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CustomField\\CustomFieldEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CustomField/CustomFieldEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\CustomFieldSet\\CustomFieldSetEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/CustomFieldSet/CustomFieldSetEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Customer\\CustomerEntity\:\:\$newsletterSalesChannelIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Customer/CustomerEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Customer\\CustomerEntity\:\:\$tagIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Customer/CustomerEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Customer\\CustomerEntity\:\:\$vatIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Customer/CustomerEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Document\\DocumentEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Document/DocumentEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\DocumentBaseConfig\\DocumentBaseConfigEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/DocumentBaseConfig/DocumentBaseConfigEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\FlowSequence\\FlowSequenceEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/FlowSequence/FlowSequenceEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\FlowTemplate\\FlowTemplateEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/FlowTemplate/FlowTemplateEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ImportExportLog\\ImportExportLogEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ImportExportLog/ImportExportLogEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ImportExportLog\\ImportExportLogEntity\:\:\$result type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ImportExportLog/ImportExportLogEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ImportExportProfile\\ImportExportProfileEntity\:\:\$config type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ImportExportProfile/ImportExportProfileEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ImportExportProfile\\ImportExportProfileEntity\:\:\$mapping type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ImportExportProfile/ImportExportProfileEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ImportExportProfile\\ImportExportProfileEntity\:\:\$updateBy type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ImportExportProfile/ImportExportProfileEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\LandingPage\\LandingPageEntity\:\:\$slotConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/LandingPage/LandingPageEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\LandingPageTranslation\\LandingPageTranslationEntity\:\:\$slotConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/LandingPageTranslation/LandingPageTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\LogEntry\\LogEntryEntity\:\:\$context type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/LogEntry/LogEntryEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\LogEntry\\LogEntryEntity\:\:\$extra type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/LogEntry/LogEntryEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\MailTemplateType\\MailTemplateTypeEntity\:\:\$availableEntities type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/MailTemplateType/MailTemplateTypeEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\MailTemplateType\\MailTemplateTypeEntity\:\:\$templateData type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/MailTemplateType/MailTemplateTypeEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Media\\MediaEntity\:\:\$mediaType type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Media/MediaEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Media\\MediaEntity\:\:\$metaData type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Media/MediaEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\MediaDefaultFolder\\MediaDefaultFolderEntity\:\:\$associationFields type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/MediaDefaultFolder/MediaDefaultFolderEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Order\\OrderEntity\:\:\$itemRounding type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Order/OrderEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Order\\OrderEntity\:\:\$price type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Order/OrderEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Order\\OrderEntity\:\:\$ruleIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Order/OrderEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Order\\OrderEntity\:\:\$shippingCosts type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Order/OrderEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Order\\OrderEntity\:\:\$totalRounding type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Order/OrderEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderCustomer\\OrderCustomerEntity\:\:\$vatIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderCustomer/OrderCustomerEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderDelivery\\OrderDeliveryEntity\:\:\$shippingCosts type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderDelivery/OrderDeliveryEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderDelivery\\OrderDeliveryEntity\:\:\$trackingCodes type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderDelivery/OrderDeliveryEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderDeliveryPosition\\OrderDeliveryPositionEntity\:\:\$price type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderDeliveryPosition/OrderDeliveryPositionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderLineItem\\OrderLineItemEntity\:\:\$payload type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderLineItem/OrderLineItemEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderLineItem\\OrderLineItemEntity\:\:\$price type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderLineItem/OrderLineItemEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderLineItem\\OrderLineItemEntity\:\:\$priceDefinition type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderLineItem/OrderLineItemEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderLineItem\\OrderLineItemEntity\:\:\$states type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderLineItem/OrderLineItemEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderTransaction\\OrderTransactionEntity\:\:\$amount type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderTransaction/OrderTransactionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderTransactionCapture\\OrderTransactionCaptureEntity\:\:\$amount type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderTransactionCapture/OrderTransactionCaptureEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderTransactionCaptureRefund\\OrderTransactionCaptureRefundEntity\:\:\$amount type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderTransactionCaptureRefund/OrderTransactionCaptureRefundEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\OrderTransactionCaptureRefundPosition\\OrderTransactionCaptureRefundPositionEntity\:\:\$amount type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/OrderTransactionCaptureRefundPosition/OrderTransactionCaptureRefundPositionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Plugin\\PluginEntity\:\:\$autoload type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Plugin/PluginEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Plugin\\PluginEntity\:\:\$changelog type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Plugin/PluginEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\PluginTranslation\\PluginTranslationEntity\:\:\$changelog type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/PluginTranslation/PluginTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$categoryIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$categoryTree type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$customSearchKeywords type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$optionIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$price type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$propertyIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$purchasePrices type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$slotConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$states type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$streamIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$tagIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$variantListingConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$variantRestrictions type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Product\\ProductEntity\:\:\$variation type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Product/ProductEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ProductConfiguratorSetting\\ProductConfiguratorSettingEntity\:\:\$price type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ProductConfiguratorSetting/ProductConfiguratorSettingEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ProductFeatureSet\\ProductFeatureSetEntity\:\:\$features type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ProductFeatureSet/ProductFeatureSetEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ProductPrice\\ProductPriceEntity\:\:\$price type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ProductPrice/ProductPriceEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ProductSearchConfig\\ProductSearchConfigEntity\:\:\$excludedTerms type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ProductSearchConfig/ProductSearchConfigEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ProductSorting\\ProductSortingEntity\:\:\$fields type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ProductSorting/ProductSortingEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ProductStream\\ProductStreamEntity\:\:\$apiFilter type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ProductStream/ProductStreamEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ProductStreamFilter\\ProductStreamFilterEntity\:\:\$parameters type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ProductStreamFilter/ProductStreamFilterEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ProductTranslation\\ProductTranslationEntity\:\:\$customSearchKeywords type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ProductTranslation/ProductTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ProductTranslation\\ProductTranslationEntity\:\:\$slotConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ProductTranslation/ProductTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Promotion\\PromotionEntity\:\:\$exclusionIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Promotion/PromotionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Promotion\\PromotionEntity\:\:\$ordersPerCustomerCount type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Promotion/PromotionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\PromotionIndividualCode\\PromotionIndividualCodeEntity\:\:\$payload type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/PromotionIndividualCode/PromotionIndividualCodeEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Rule\\RuleEntity\:\:\$areas type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Rule/RuleEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Rule\\RuleEntity\:\:\$moduleTypes type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Rule/RuleEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\RuleCondition\\RuleConditionEntity\:\:\$value type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/RuleCondition/RuleConditionEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\SalesChannel\\SalesChannelEntity\:\:\$configuration type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/SalesChannel/SalesChannelEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\SalesChannel\\SalesChannelEntity\:\:\$homeSlotConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/SalesChannel/SalesChannelEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\SalesChannel\\SalesChannelEntity\:\:\$maintenanceIpWhitelist type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/SalesChannel/SalesChannelEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\SalesChannel\\SalesChannelEntity\:\:\$paymentMethodIds type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/SalesChannel/SalesChannelEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\SalesChannelTranslation\\SalesChannelTranslationEntity\:\:\$homeSlotConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/SalesChannelTranslation/SalesChannelTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\SalesChannelType\\SalesChannelTypeEntity\:\:\$screenshotUrls type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/SalesChannelType/SalesChannelTypeEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ShippingMethodPrice\\ShippingMethodPriceEntity\:\:\$currencyPrice type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ShippingMethodPrice/ShippingMethodPriceEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\StateMachineHistory\\StateMachineHistoryEntity\:\:\$entityId type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/StateMachineHistory/StateMachineHistoryEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\SystemConfig\\SystemConfigEntity\:\:\$configurationValue type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/SystemConfig/SystemConfigEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\TaxRule\\TaxRuleEntity\:\:\$data type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/TaxRule/TaxRuleEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Theme\\ThemeEntity\:\:\$baseConfig type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Theme/ThemeEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Theme\\ThemeEntity\:\:\$configValues type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Theme/ThemeEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Theme\\ThemeEntity\:\:\$helpTexts type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Theme/ThemeEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Theme\\ThemeEntity\:\:\$labels type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Theme/ThemeEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\Theme\\ThemeEntity\:\:\$themeJson type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Theme/ThemeEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ThemeTranslation\\ThemeTranslationEntity\:\:\$helpTexts type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ThemeTranslation/ThemeTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\ThemeTranslation\\ThemeTranslationEntity\:\:\$labels type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/ThemeTranslation/ThemeTranslationEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\UserConfig\\UserConfigEntity\:\:\$value type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/UserConfig/UserConfigEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\VersionCommitData\\VersionCommitDataEntity\:\:\$entityId type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/VersionCommitData/VersionCommitDataEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\VersionCommitData\\VersionCommitDataEntity\:\:\$payload type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/VersionCommitData/VersionCommitDataEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\WebhookEventLog\\WebhookEventLogEntity\:\:\$requestContent type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/WebhookEventLog/WebhookEventLogEntity.php
+
+		-
+			message: '#^Property ITB\\ShopwareSdkEntity\\WebhookEventLog\\WebhookEventLogEntity\:\:\$responseContent type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/WebhookEventLog/WebhookEventLogEntity.php
