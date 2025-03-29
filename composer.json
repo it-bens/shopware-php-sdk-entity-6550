@@ -1,0 +1,60 @@
+{
+    "name": "it-bens/shopware-sdk-entity-6650",
+    "description": "The automatically created entity, collection and definition classes and mapping for Shopware 6.5.5.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Bens",
+            "email": "martin.bens@it-bens.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.3",
+        "it-bens/shopware-sdk-data-core": "^0.2.0"
+    },
+    "require-dev": {
+        "captainhook/captainhook": "^5.25",
+        "captainhook/plugin-composer": "^5.3",
+        "phpstan/phpstan": "^2.1",
+        "rector/rector": "^2.0",
+        "symplify/coding-standard": "^12.3",
+        "symplify/easy-coding-standard": "^12.5"
+    },
+    "provide": {
+        "it-bens/shopware-sdk-entity": "*"
+    },
+    "conflict": {
+        "it-bens/shopware-sdk-entity-legacy": "*",
+        "it-bens/shopware-sdk-entity-6560": "*",
+        "it-bens/shopware-sdk-entity-6571": "*",
+        "it-bens/shopware-sdk-entity-6580": "*",
+        "it-bens/shopware-sdk-entity-6583": "*",
+        "it-bens/shopware-sdk-entity-6588": "*",
+        "it-bens/shopware-sdk-entity-65812": "*",
+        "it-bens/shopware-sdk-entity-6600": "*",
+        "it-bens/shopware-sdk-entity-6630": "*",
+        "it-bens/shopware-sdk-entity-6640": "*",
+        "it-bens/shopware-sdk-entity-6650": "*",
+        "it-bens/shopware-sdk-entity-6660": "*",
+        "it-bens/shopware-sdk-entity-6670": "*"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "captainhook/plugin-composer": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ITB\\ShopwareSdkEntity\\": "src/"
+        }
+    },
+    "scripts": {
+        "style-check": "php vendor/bin/ecs check --config=ecs.php src",
+        "style-fix": "php vendor/bin/ecs check --config=ecs.php --fix src",
+        "code-upgrade": "php vendor/bin/rector process --config=rector.php src",
+        "static-analysis": "php vendor/bin/phpstan analyze --configuration=phpstan.neon --memory-limit=-1 src"
+    }
+}
